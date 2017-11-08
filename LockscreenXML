@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/darkbrotherhoodlockscreen"
+    tools:context="com.example.orles.darkbrotherhoodlockscreen.Lockscreen">
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="246dp"
+        android:layout_height="43dp"
+        android:layout_marginLeft="-38dp"
+        android:layout_marginTop="441dp"
+        android:ems="10"
+        android:hint="@string/example_edit"
+        android:inputType="textPersonName"
+        android:textColor="@color/colorAccent"
+        android:textColorLink="@color/colorAccent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="83dp"
+        android:layout_height="42dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:onClick="sendMessage"
+        android:text="@string/button_send"
+        android:textColorLink="@color/colorPrimary"
+        android:background="@color/colorPrimary"
+        android:textColor="@color/colorAccent"
+        app:layout_constraintBaseline_toBaselineOf="@+id/editText"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintLeft_toRightOf="@+id/editText"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:layout_editor_absoluteX="285dp"
+        tools:layout_editor_absoluteY="442dp" />
+</android.support.constraint.ConstraintLayout>
