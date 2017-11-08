@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Dark Brotherhood Lockscreen</string>
+    <string name="example_edit">What is lifes greatest illusion?</string>
+    <string name="button_send">Submit</string>
+</resources>
